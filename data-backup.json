@@ -1,0 +1,21 @@
+{
+  "equipo" : [ {
+    "facebook" : "manuelperezz",
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "nombre" : "Jose Manuel",
+    "subtitulo" : "Programador",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-a135d.appspot.com/o/team-1.jpg?alt=media&token=33555015-6811-4933-98fc-03474ef0c189"
+  }, {
+    "facebook" : "robertWilliam",
+    "frase" : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+    "nombre" : "Fernando Perez",
+    "subtitulo" : "Graphic Designer",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-a135d.appspot.com/o/team-3.jpg?alt=media&token=e25440c3-33f6-47f9-8d93-d56661d3f83b"
+  }, {
+    "facebook" : "AngelinaB",
+    "frase" : "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "nombre" : "Angelina B. Widow",
+    "subtitulo" : "Ingeniero en sistema",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-a135d.appspot.com/o/team-2.jpg?alt=media&token=a31be1b2-4b67-40fc-b8e4-28f469fdb13e"
+  } ]
+}
