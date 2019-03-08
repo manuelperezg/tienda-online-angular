@@ -7,7 +7,7 @@ import { InfoPagina } from '../interfaces/info-pagina.interface';
 export class InfoPaginaService {
   info: InfoPagina = { };
   equipo: any[] = [];
-  cargada = false;
+  cargando = true;
 
  constructor(private http: HttpClient) {
   this.cargarInfo();
@@ -19,16 +19,16 @@ export class InfoPaginaService {
    // console.log('servicio preparado');
    this.http.get('assets/data/data-pagina.json')
        .subscribe( (resp: InfoPagina) =>{
-         this.cargada = true;
          this.info = resp;
+         this.cargando = false;
 
      })
  }
  private cargarEquipo(){
    this.http.get('https://angular-html-a135d.firebaseio.com/equipo.json')
        .subscribe( (resp: any) =>{
-         this.cargada = true;
          this.equipo = resp;
+         this.cargando = false;
          // console.log(resp);
 
      })
