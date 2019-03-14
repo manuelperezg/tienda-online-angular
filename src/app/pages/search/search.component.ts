@@ -9,18 +9,15 @@ import { ProductosService } from '../../services/productos.service';
 export class SearchComponent implements OnInit {
 
 	constructor( private router: ActivatedRoute,
-				 public  productoService: ProductosService){  
+				 public  buscarService: ProductosService){ 
+
 	}
 
 	ngOnInit() {
 		//capturar el parametro que se envia por get
 		this.router.params
 		.subscribe(params => {
-			this.productoService.buscarProducto(params['termino']);
-			console.log(this.productoService.productoFiltrado);
-			// console.log(params['termino']);
+			this.buscarService.buscarProducto(params['termino']);
 		});
 	}
-
-
 }

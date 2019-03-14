@@ -1,0 +1,24 @@
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"C:/Angular/portafolio/.git/rebase-merge/git-rebase-todo"<lar/portafolio/.git/rebase-merge/git-rebase-todo" [UNIX] 27L, 1067C[1;1Hnoop
+
+[34m# Rebase [m[36m3fdaab2[m[34m..[m[36m3fdaab2[m[34m onto [m[36m3fdaab2[m[34m (1 command)
+#
+# Commands:
+# p, pick <commit> = use commit
+# r, reword <commit> = use commit, but edit the commit message
+# e, edit <commit> = use commit, but stop for amending
+# s, squash <commit> = use commit, but meld into previous commit
+# f, fixup <commit> = like "squash", but discard this commit's log message
+# x, exec <command> = run command (the rest of the line) using shell
+# d, drop <commit> = remove commit
+# l, label <label> = label current HEAD with a name
+# t, reset <label> = reset HEAD to a label
+# m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
+# .       create a merge commit using the original merge commit's
+# .       message (or the oneline, if no original merge commit was
+# .       specified). Use -c <commit> to reword the commit message.
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.[m
+[1m[7m<tafolio/.git/rebase-merge/git-rebase-todo [unix] (11:32 11/03/2019)1,1 Comienzo[1;1H[?25h[?25l[m[24;70Hq[1;1H[?25h[?25l[24;71H^M[1;1H[?5h[?25h[?2004l[?2004h[?5l[?25l[24;70H   [1;1H[?25h[?25l[24;70H~@k[1;1H[?5h[?25h[?2004l[?2004h[?5l[?25l[24;70H   [1;1H[?25h[?25l[24;70H~@k[1;1H[24;70H   [1;1H[?25h[?25l[24;70H^M[1;1H[24;70H  [2;1H[23;2H[1m[7mfolio/.git/rebase-merge/git-rebase-todo [unix] (11:32 11/03/2019)2,0-1[2;1H[?25h[?25l[m[24;70H^M[2;1H[24;70H  [3;1H[23;2H[1m[7mtafolio/.git/rebase-merge/git-rebase-todo [unix] (11:32 11/03/2019)3,1[3;1H[?25h[?25l[m[24;70Hq[3;1H[?25h[?25l[24;71Hq[3;1H[24;1H[1mgrabando @q[m[24;12H[K[3;1H[?25h[?25l[24;70Hw[3;1H[24;70H [3;3H[23;71H[1m[7m3 [3;3H[?25h[?25l[m[24;70Hw[3;3H[24;70H [3;10H[23;2H[1m[7mafolio/.git/rebase-merge/git-rebase-todo [unix] (11:32 11/03/2019)3,10 [3;10H[?25h[?25l[m[24;70He[3;10H[24;70H [3;16H[23;71H[1m[7m6 [3;16H[?25h[?25l[m[24;70Hq[3;16H[24;1H[K[3;16H[?25h[?25l[24;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[?5h[?25h[?5l[3;16H[?25l[24;70H^V[3;16H[24;70H1x1[3;16H[24;1H[1m-- BLOQUE VISUAL --[m[24;20H[K[24;70H1x1[3;16H[?25h[?25l[24;70H^X [3;16H[24;70H  [3;16H[36m1[m[23;2H[1m[7mlio/.git/rebase-merge/git-rebase-todo[+] [m[24;1H[K[3;16H[?25h[?25l[24;70H^X[3;16H[24;70H  [3;16H[36m0[?25h[?25l[m[24;70H^X[3;16H[24;70H  [3;17H[3;10H[34m3fdaab-1..[m[36m3fdaab2[m[34m onto [m[36m3fdaab2[m[34m (1 command)[m[23;71H[1m[7m7 [3;17H[?25h[?25l[m[24;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[?5h[?25h[?5l[3;17H[?25l[?25h[?25l[24;70H^W[3;17H[?25h[?25l[24;72H^E[3;17H[?5h[?25h[?2004l[?2004h[?5l[?25l[24;70H    [3;17H[?25h[?25l[24;70H^X[3;17H[24;70H  [3;17H[34m2[?25h[?25l[?5h[?25h[?5l[?25l[m[24;70H^V[3;17H[24;70H1x1[3;17H[24;1H[1m-- BLOQUE VISUAL --[m[24;20H[K[24;70H1x1[3;17H[?25h[?25l[24;70H^V [3;17H[24;70H  [3;17H[24;1H[K[3;17H[?25h[?25l[24;70H^Z[3;17H[24;1H
+[?2004l[?1l>[?25h[?1049l[23;0;0t[?2004l

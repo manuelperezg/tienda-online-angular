@@ -62,6 +62,5 @@ export class ProductosService {
     			this.productoFiltrado.push(prod);
     		}
     	});
-    	console.log(this.productoFiltrado);
     }
 }
