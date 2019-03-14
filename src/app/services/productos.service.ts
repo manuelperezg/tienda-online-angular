@@ -18,8 +18,8 @@ export class ProductosService {
 		return  new Promise((resolve, reject) => {
 			this.http.get('https://angular-html-a135d.firebaseio.com/productos_idx.json')
 			.subscribe( (resp: Productos[]) => {
-				this.cargando = false;
 				this.productos = resp;
+				this.cargando = false;
 				resolve(); // Indicar que la promesa terminó;
 			});
 		});
@@ -30,7 +30,7 @@ export class ProductosService {
 		
 	}
 	buscarProducto( termino: string) {
-		if (this.productoFiltrado.length === 0) {
+		if (this.productos.length === 0) {
 			// cargar productos
 			this.cargarProductos().then (() => {
 				// este codigo  se va a ejecutar despues de tener los productos
@@ -42,19 +42,26 @@ export class ProductosService {
 			this.filtrarProductos( termino );
 
 		}
+		/*this.productoFiltrado = this.productos.filter(productos => {
+			return true;
+		})*/
+
 	}
-	private filtrarProductos(termino: string) {
-		// console.log(this.productos)
-		this.productoFiltrado = [];
-		termino = termino.toLowerCase();
 
-		this.productos.forEach(prod => {
-
-			const tituloToLower = prod.titulo.toLocaleLowerCase();
-
-			if ( prod.categoria.indexOf(termino) >= 0 || tituloToLower.indexOf(termino)) {
-				this.productoFiltrado.push(prod);
-			}
-		});
-	}
+	/*private filtrarProductos(termino: string) {
+        this.productoFiltrado =  this.productos.filter(x => x.categoria.toLowerCase().includes(termino));
+    }*/
+    private filtrarProductos(termino: string) {
+    	this.productoFiltrado = [];
+    	// el termino se pasa a minuscula 
+    	termino = termino.toLowerCase();
+    	this.productos.forEach(prod => {
+    		// convertimos el titulo a minuscula
+    		const tituloToLower = prod.titulo.toLocaleLowerCase();
+    		if ( prod.categoria.indexOf(termino) >= 0 || tituloToLower.indexOf(termino) >= 0) {
+    			this.productoFiltrado.push(prod);
+    		}
+    	});
+    	console.log(this.productoFiltrado);
+    }
 }
